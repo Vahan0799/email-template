@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contentree</title>
+    <style>
+        h2, h4, p, a {
+            font-family: "Arial", sans-serif;
+            margin: 0;
+        }
+
+        img {
+            image-rendering: -moz-crisp-edges;
+            image-rendering: -o-crisp-edges;
+            image-rendering: -webkit-optimize-contrast;
+            image-rendering: crisp-edges;
+            -ms-interpolation-mode: nearest-neighbor;
+        }
+
+        a {
+            text-decoration: none;
+            font-weight: 700;
+            line-height: 19px;
+        }
+
+        .wrapper {
+            position: relative;
+        }
+
+        .wrapper::before {
+            content: '';
+            height: 2px;
+            width: 100%;
+            background-color: #4FAA00;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+
+        .wrapper::after {
+            content: '';
+            height: 2px;
+            width: 100%;
+            background-color: #4FAA00;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            z-index: 1;
+        }
+
+        @media screen and (max-width: 767.8px) {
+            .mobile__full {
+                width: 100% !important;
+            }
+
+            .contentree--hero__img {
+                width: 100%;
+            }
+
+            p {
+                text-align: center !important;
+                padding-left: 25px !important;
+                padding-right: 25px !important;
+            }
+
+            h2 {
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+            }
+
+            .contentree--customer__service {
+                font-size: 12px !important;
+            }
+
+            .contentree--footer {
+                padding-right: 15px !important;
+                padding-left: 15px !important;
+            }
+        }
+    </style>
+</head>
+
+<body style="margin:0;padding:0;">
+
+<div style="width: 600px ; margin: auto; padding: 18px 0 22px;" class="mobile__full">
+
+    <!--Begin Header-->
+    <table role="presentation" width="100%" cellpadding="0" border="0" cellspacing="0" bgcolor="#ffffff"
+           style="background-color:#ffffff; padding-bottom: 28px;">
+        <tr>
+            <td align="center" valign="top">
+                <a href="#">
+                    <img border="0" hspace="0" align="center" vspace="0" src="images/contentree-logo.png" alt="logo" style="width: 172px">
+                </a>
+            </td>
+        </tr>
+    </table>
+    <!--./End Header-->
+
+    <!--Begin Template-->
+    <table role="presentation" class="wrapper" width="100%" cellpadding="0" border="0" cellspacing="0"
+           bgcolor="#ffffff">
+
+        <!--Begin Hero-->
+        <tr>
+            <td align="center" valign="top">
+                <table role="presentation" width="100%" cellpadding="0" border="0" cellspacing="0" bgcolor="#ffffff"
+                       style="background-color:#ffffff;">
+                    <tr>
+                        <td align="center" valign="top">
+                            <img border="0" hspace="0" align="center" vspace="0" src="images/contentree-hero.png" alt="operator" class="contentree--hero__img">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <!--./ End Hero-->
+
+        <!--Begin Description-->
+        <tr>
+            <td align="center" valign="top">
+                <table role="presentation" width="100%" cellpadding="0" border="0" cellspacing="0" bgcolor="#ffffff"
+                       style="background-color:#ffffff; padding-top:20px;">
+                    <tr>
+                        <td align="center" valign="top">
+                            <h2 style="font-weight: 700; font-size: 30px; line-height: 36px; text-align: center; color:#485E6E; padding: 5px 48px 0; margin-bottom: 11px">
+                                World's Largest Collection of Customer Service Case Studies
+                            </h2>
+                            <p style="font-size: 14px; line-height: 19px; color: #222427; text-align: left; padding: 0 52px; margin-bottom: 37px">
+                                Oveana selected the cloud-based Vocalcom platform, an award-winning contact center
+                                software solution
+                                offering inbound and outbound voice, email, webchat, and social media capabilities to
+                                provide a
+                                multichannel solution.
+                            </p>
+                            <a href="#"
+                               style="background-color: #4FAA00; font-size: 13px; border-radius: 3px; color: #FFFFFF; padding: 10px 35px; text-transform: uppercase;">
+                                LEARN MORE
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <!--./End Description-->
+
+        <!--Begin Datamark-->
+        <tr>
+            <td align="center" valign="top">
+                <table role="presentation" width="100%" cellpadding="0" border="0" cellspacing="0" bgcolor="#ffffff"
+                       style="background-color:#ffffff;padding-top:24px;">
+                    <tr>
+                        <td align="center" valign="top">
+                            <img border="0" hspace="0" align="center" vspace="0" src="images/contentree-datamark.png" title="Datamark Service" alt="Datamark Service" style="margin-bottom: 5px; filter: drop-shadow(0px 2px 11px rgba(0, 0, 0, 0.18));">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="top">
+                            <a href="#" class="contentree--customer__service"
+                               style="text-align: center; color: #003876; font-size: 14px; text-transform: uppercase;">
+                                View More Customer Service Case Studies
+                                <img border="0" hspace="0" align="center" vspace="0" src="images/contentree-arrow-right.png" alt=""
+                                     style="position: relative; left: 4px" alt="Navigation Arrow">
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <!--./End Datamark-->
+
+        <!--Begin Footer-->
+        <tr>
+            <td align="center" valign="top">
+                <table class="contentree--footer" role="presentation" width="100%" cellpadding="0" border="0"
+                       cellspacing="0" bgcolor="#182C3A"
+                       style="max-width: 600px; margin: 25px auto 0; padding: 20px 52px 17px;">
+                    <tr>
+                        <td align="center" valign="top">
+                            <h4 style="font-weight: 700; font-size: 10px; line-height: 15px; color: #FFFFFF; letter-spacing: 0.3px; margin: 14px 0;">
+                                Copyright © 2021
+                                Digital Community Tech</h4>
+                            <p style="font-size: 10px; line-height: 15px; text-align: center; color: #FFFFFF;">316
+                                California Ave.
+                                #60, Reno NV 89509</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="top" style="border-bottom: 1px solid #FFFFFF; padding-bottom: 12px;">
+                            <a href="mailto::news@digitalcommunitytech.com"
+                               style="font-size: 10px; line-height: 15px; color: #FFFFFF; font-weight: 400; letter-spacing: 0.3px; margin-right: 6px;">news@digitalcommunitytech.com</a>
+                            <a href="tel:(949)356-6710"
+                               style="font-size: 10px; line-height: 15px; color: #FFFFFF;font-weight: 400;">(949)356-6710</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="top">
+                            <p style="font-size: 10px; line-height: 13px; color: #FFFFFF; padding-top: 14px;">
+                                By engaging with any content contained in this email, you agree that Digital
+                                Community
+                                Tech can use
+                                your contact data to keep you informed of products, services, offerings and give
+                                consent
+                                to the
+                                terms of our privacy policy available
+                                <a href="#" style="color: #FFFFFF; text-decoration: underline;">here</a>.
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <!--./End Footer-->
+
+    </table>
+    <!--./End Template-->
+
+</div>
+</body>
+</html>
